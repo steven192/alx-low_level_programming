@@ -2,13 +2,12 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: prints all  single number of base 10
+ * Description: prints all single numbers of base 10
  * starting from 0, followed by a new line
- * Ruturn: Always 0 (Success)
+ * Return: 0
  */
 int main(void)
 {
-
 	int c = 0;
 
 	while (c < 10)
