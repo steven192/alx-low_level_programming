@@ -10,12 +10,10 @@ int main(void)
 {
 	int c = 0;
 	int f_d;
-
 	int l_d;
 
 	int c2;
 	int f_d2;
-
 	int l_d2;
 
 	while (c <= 98)
@@ -28,6 +26,7 @@ int main(void)
 		{
 			f_d2 = (c2 / 10 + '0');
 			l_d2 = (c2 % 10 + '0');
+
 			if (c < c2)
 			{
 				putchar(f_d);
@@ -35,6 +34,7 @@ int main(void)
 				putchar (' ');
 				putchar(f_d2);
 				putchar(l_d2);
+
 				if (c != 98)
 				{
 					putchar(';');
