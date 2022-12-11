@@ -3,7 +3,7 @@
 /**
  * main - main block
  * Description: write a program that prints all possible
- * different combination of two digits
+ * different combinations of two digits
  * Return: 0
  */
 int main(void)
@@ -18,13 +18,13 @@ int main(void)
 
 	int l_d2;
 
-	while (c <= 1)
+	while (c <= 98)
 
 	{
 		f_d = (c / 10 + '0');
 		l_d = (c % 10 + '0');
 		c2  = 0;
-		while (c2 <= 10)
+		while (c2 <= 99)
 		{
 			f_d2 = (c2 / 10 + '0');
 			l_d2 = (c2 % 10 + '0');
@@ -32,10 +32,10 @@ int main(void)
 			{
 				putchar(f_d);
 				putchar(l_d);
-				putchar (';');
+				putchar (' ');
 				putchar(f_d2);
 				putchar(l_d2);
-				if (c != 10)
+				if (c != 98)
 				{
 					putchar(';');
 					putchar(' ');
