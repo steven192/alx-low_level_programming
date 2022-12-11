@@ -3,7 +3,7 @@
 /**
  * main -prints exactly and that piece of art is useful
  *
- * Return: Always 1
+ * Return: 1
  */
 
 int main(void)
