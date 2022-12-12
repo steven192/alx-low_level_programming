@@ -18,12 +18,12 @@ int main(void)
 
 			if (c < f)
 			{
-				putchar(c);
-				putchar(c);
+				putchar(c / 10 + '0');
+				putchar(c % 10 + 'o');
 				putchar (' ');
-				putchar(f);
-				putchar(f);
-				if (c != 98 || f != 99)
+				putchar(f / 10 + '0');
+				putchar(f % 10 + '0');
+				if (c * 100 f != 9899)
 				{
 					putchar(',');
 					putchar(' ');
