@@ -19,7 +19,7 @@ int main(void)
 			if (c > f)
 			{
 				putchar(c / 10 + '0');
-				putchar(c % 10 + 'o');
+				putchar(c % 10 + '0');
 				putchar (' ');
 				putchar(f / 10 + '0');
 				putchar(f % 10 + '0');
