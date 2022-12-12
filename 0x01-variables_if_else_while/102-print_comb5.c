@@ -16,7 +16,7 @@ int main(void)
 		for (f = 0; f < 100; f++)
 		{
 
-			if (c > f)
+			if (f > c)
 			{
 				putchar(c / 10 + '0');
 				putchar(c % 10 + '0');
