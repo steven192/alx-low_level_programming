@@ -16,14 +16,15 @@ int main(void)
 		for (f = 0; f < 100; f++)
 		{
 
-			if (c < f)
+			if (c > f)
 			{
 				putchar(c / 10 + '0');
 				putchar(c % 10 + 'o');
 				putchar (' ');
 				putchar(f / 10 + '0');
 				putchar(f % 10 + '0');
-				if (c * 100 f != 9899)
+
+				if (c * 100 + f != 9899)
 				{
 					putchar(',');
 					putchar(' ');
