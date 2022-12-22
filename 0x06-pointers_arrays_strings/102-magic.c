@@ -1,6 +1,12 @@
-include < stdio.h >
+#include < stdio.h >
+/**
+ * main-Entry point
+ *
+ * Description: 'the program's description'
+ * Return: Alway 0 (Success)
+ */
 
-int main(void);
+int  main(void)
 {
 	int n;
 	int a[5];
